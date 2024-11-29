@@ -1,11 +1,11 @@
 import React from "react";
 import { Button, Card, Image } from "@nextui-org/react";
 import Container from "@/components/Container";
-import { HugeiconsMailAdd02, SolarFileDownloadBroken } from "@/components/icons/botonesicons";
+import { HugeiconsMailAdd02, IconoirLinkedin, SolarFileDownloadBroken } from "@/components/icons/botonesicons";
 
 export default function Hero() {
   return (
-    <section>
+    <section id="hero">
         <Container>
       <div className="flex items-center  justify-center space-x-6">
         <Image
@@ -22,7 +22,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div id="contenido sobre mi" className="flex flex-col items-center justify-center">
+      <div id="contenido sobre mi" className="flex flex-col items-center justify-center mt-6">
         <h1 className="font-bold text-5xl ">Hola , soy AirDev</h1>
         <p className="text-2xl mt-4">
           +3 años de experiencia.
@@ -32,15 +32,20 @@ export default function Hero() {
           , especializado en el desarrollo de aplicaciones web fronted únicas.
         </p>
 
-        <div className=" w-full  space-x-10 mt-4">
-        <Button color="default" variant="shadow" className="ml-24 bg-gradient-to-tr from-pink-500 to-yellow-500  shadow-lg">
-            Contactame
+        <div className=" w-full flex justify-center space-x-10 mt-4">
+        <Button color="default" variant="shadow" className=" bg-gradient-to-tr from-pink-500 to-yellow-500  shadow-lg">
         <HugeiconsMailAdd02 className="w-6 h-6" />
+            Contactame
         </Button>
-        <Button color="default" variant="shadow" className="ml-24 bg-gradient-to-tr from-pink-500 to-yellow-500">
-            Descargar CV
+        <Button color="default" variant="shadow" className=" bg-gradient-to-tr from-pink-500 to-yellow-500">
         <SolarFileDownloadBroken className="w-6 h-6" />
+            Descargar CV
         </Button>  
+
+        <Button color="default" variant="shadow" className=" bg-gradient-to-tr from-pink-500 to-yellow-500">
+        <IconoirLinkedin className="w-6 h-6" />
+            LinkedIn
+        </Button>
         </div>
 
       </div>

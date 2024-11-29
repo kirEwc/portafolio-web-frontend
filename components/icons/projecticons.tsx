@@ -30,3 +30,18 @@ export function LogosTelegram(props: SVGProps<SVGSVGElement>) {
 export function LogosExpoIcon(props: SVGProps<SVGSVGElement>) {
 	return (<svg xmlns="http://www.w3.org/2000/svg" width="1.11em" height="1em" viewBox="0 0 256 231" {...props}><path fill="#000020" d="M121.309 84.673c2.094-3.086 4.385-3.478 6.244-3.478c1.86 0 4.957.392 7.051 3.478c16.502 22.667 43.742 67.819 63.835 101.126c13.104 21.72 23.168 38.403 25.233 40.526c7.751 7.97 18.382 3.003 24.559-6.037c6.081-8.9 7.77-15.15 7.77-21.817c0-4.54-88.106-168.4-96.979-182.039C150.49 3.314 147.71 0 133.106 0h-10.93c-14.56 0-16.665 3.314-25.198 16.432C88.106 30.072 0 193.93 0 198.472c0 6.666 1.688 12.916 7.77 21.816c6.177 9.04 16.808 14.007 24.559 6.037c2.065-2.123 12.13-18.806 25.233-40.526c20.093-33.307 47.245-78.46 63.747-101.126"></path></svg>);
 }
+
+// icono de maleta para seccion de experiencia
+export function SolarSuitcaseBroken(props: SVGProps<SVGSVGElement>) {
+	return (<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...props}><g fill="none"><path stroke="currentColor" strokeLinecap="round" strokeWidth={1.5} d="M2 14c0-3.771 0-5.657 1.172-6.828S6.229 6 10 6h4c3.771 0 5.657 0 6.828 1.172c.654.653.943 1.528 1.07 2.828M22 14c0 3.771 0 5.657-1.172 6.828S17.771 22 14 22h-4c-3.771 0-5.657 0-6.828-1.172c-.654-.653-.943-1.528-1.07-2.828"></path><path stroke="currentColor" strokeWidth={1.5} d="M16 6c0-1.886 0-2.828-.586-3.414S13.886 2 12 2s-2.828 0-3.414.586S8 4.114 8 6"></path><path fill="currentColor" d="M17 9a1 1 0 1 1-2 0a1 1 0 0 1 2 0M9 9a1 1 0 1 1-2 0a1 1 0 0 1 2 0"></path></g></svg>);
+}
+
+// icono de punto para seccion de experiencia
+export function GisPoint(props: SVGProps<SVGSVGElement>) {
+	return (<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 100 100" {...props}><path fill="currentColor" d="M50 37.45c-6.89 0-12.55 5.66-12.55 12.549c0 6.89 5.66 12.55 12.55 12.55c6.655 0 12.112-5.294 12.48-11.862a3.5 3.5 0 0 0 .07-.688a3.5 3.5 0 0 0-.07-.691C62.11 42.74 56.653 37.45 50 37.45m0 7c3.107 0 5.55 2.442 5.55 5.549s-2.443 5.55-5.55 5.55s-5.55-2.443-5.55-5.55S46.892 44.45 50 44.45" color="currentColor"></path></svg>);
+}
+
+// icono de Frontend designer para seccion de experiencia
+export function MousePointer(props: SVGProps<SVGSVGElement>) {
+	return (<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...props}><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12.034 12.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.943l-3.444 1.068a1 1 0 0 0-.66.66l-1.067 3.443a.5.5 0 0 1-.943.033zM5 3a2 2 0 0 0-2 2m16-2a2 2 0 0 1 2 2M5 21a2 2 0 0 1-2-2M9 3h1M9 21h2m3-18h1M3 9v1m18-1v2M3 14v1"></path></svg>);
+}
