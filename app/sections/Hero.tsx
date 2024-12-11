@@ -33,16 +33,31 @@ export default function Hero() {
         </p>
 
         <div className=" w-full flex justify-center space-x-10 mt-4">
-        <Button color="default" variant="shadow" className=" bg-gradient-to-tr from-pink-500 to-yellow-500  shadow-lg">
+        <Button 
+            color="default" 
+            variant="shadow" 
+            className=" bg-gradient-to-tr from-pink-500 to-yellow-500  shadow-lg"
+            onClick={() => window.location.href = "mailto:aldairguerracedeno@gmail.com?subject=Asunto&body=Quiero%20contratar%20sus%20servicios%20de%20frontend%20developer" }
+            >
         <HugeiconsMailAdd02 className="w-6 h-6" />
             Contactame
         </Button>
-        <Button color="default" variant="shadow" className=" bg-gradient-to-tr from-pink-500 to-yellow-500">
+        <Button 
+            color="default" 
+            variant="shadow" 
+            className=" bg-gradient-to-tr from-pink-500 to-yellow-500"
+            //onClick={() => window.location.href = "https://drive.google.com/file/d/1-5-1-2-3-4-5/view?usp=sharing" }
+            >
         <SolarFileDownloadBroken className="w-6 h-6" />
             Descargar CV
         </Button>  
 
-        <Button color="default" variant="shadow" className=" bg-gradient-to-tr from-pink-500 to-yellow-500">
+        <Button 
+            color="default" 
+            variant="shadow" 
+            className=" bg-gradient-to-tr from-pink-500 to-yellow-500"
+            onClick={() => window.location.href = "https://www.linkedin.com/in/aldair-guerra-cedeño-a9819933a/" }
+            >
         <IconoirLinkedin className="w-6 h-6" />
             LinkedIn
         </Button>
