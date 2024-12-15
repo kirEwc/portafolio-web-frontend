@@ -36,7 +36,7 @@ export default function Hero() {
         <Button 
             color="default" 
             variant="shadow" 
-            className=" bg-gradient-to-tr from-pink-500 to-yellow-500  shadow-lg"
+            className=" bg-gradient-to-tr from-green-500 to-yellow-500  shadow-lg"
             onClick={() => window.location.href = "mailto:aldairguerracedeno@gmail.com?subject=Asunto&body=Quiero%20contratar%20sus%20servicios%20de%20frontend%20developer" }
             >
         <HugeiconsMailAdd02 className="w-6 h-6" />
@@ -45,7 +45,7 @@ export default function Hero() {
         <Button 
             color="default" 
             variant="shadow" 
-            className=" bg-gradient-to-tr from-pink-500 to-yellow-500"
+            className=" bg-gradient-to-tr from-green-500 to-yellow-500"
             //onClick={() => window.location.href = "https://drive.google.com/file/d/1-5-1-2-3-4-5/view?usp=sharing" }
             >
         <SolarFileDownloadBroken className="w-6 h-6" />
@@ -55,7 +55,7 @@ export default function Hero() {
         <Button 
             color="default" 
             variant="shadow" 
-            className=" bg-gradient-to-tr from-pink-500 to-yellow-500"
+            className=" bg-gradient-to-tr from-green-500 to-yellow-500"
             onClick={() => window.location.href = "https://www.linkedin.com/in/aldair-guerra-cedeño-a9819933a/" }
             >
         <IconoirLinkedin className="w-6 h-6" />

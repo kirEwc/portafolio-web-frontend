@@ -13,6 +13,7 @@ import clsx from "clsx";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/utils/theme-switch";
 import { GithubIcon } from "@/components/icons/icons";
+import Image from "next/image";
 
 export const Navbar = () => {
   return (
@@ -20,7 +21,8 @@ export const Navbar = () => {
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <p className="font-bold text-inherit ">AirDev</p>
+            <Image src="/favicon.ico" width={20} height={20} alt="AirDev" />
+            <p className="font-bold text-inherit ml-1 ">AirDev</p>
           </NextLink>
         </NavbarBrand>
         <ul className="hidden lg:flex gap-4 justify-start ml-2">

@@ -38,16 +38,11 @@ export default function RootLayout({
       <body
         className={clsx(
           "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable,
+          fontSans.variable
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-        <NeonBG />
-
-        
-
-
-
+          <NeonBG />
 
           <div className="relative flex flex-col h-screen">
             <Navbar />
@@ -55,7 +50,11 @@ export default function RootLayout({
               {children}
             </main>
             <footer className="w-full flex items-center justify-center py-3">
-             
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                &copy; {new Date().getFullYear()} AirDev.Casi todos los
+                derechos reservados.
+              </p>
+              
             </footer>
           </div>
         </Providers>
