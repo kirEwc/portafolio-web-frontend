@@ -11,10 +11,10 @@ export default function About() {
         Sobre mi
       </h2>
 
-      <div className="flex justify-evenly">
-        <div className="max-w-2xl">
+      <div className="flex flex-col-reverse  md:flex-row sm:justify-center sm:items-center md:justify-evenly">
+        <div className="max-w-2xl mt-4">
 
-        <p className=" text-md text-gray-600 dark:text-gray-300">
+        <p className=" text-md text-gray-600  dark:text-gray-300">
           Mi nombre es Aldair Guerra , aunque en el mundo de la programación
           también se me conoce como "AirDev".
           

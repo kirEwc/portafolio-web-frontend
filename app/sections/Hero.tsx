@@ -25,7 +25,7 @@ export default function Hero() {
       <div id="contenido sobre mi" className="flex flex-col items-center justify-center mt-6">
         <h1 className="font-bold text-5xl ">Hola , soy AirDev</h1>
         <p className="text-2xl mt-4">
-          +3 años de experiencia.
+          +3 años de experiencia. <br className="md:hidden"/>
           <span className="text-yellow-600 dark:text-yellow-500 font-extrabold">
             Ingeniero de Software
           </span>
