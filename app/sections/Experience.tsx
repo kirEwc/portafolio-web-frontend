@@ -11,13 +11,7 @@ export default function Experience() {
       date: 'Octubre 2024',
       description: "Diseño y desarrollo frontend para una agencia de venta de boletosaéreos y servicios de viajes. Creación de interfaces de usuario intuitivas y funcionales, asegurando la mejor experiencia para los usuarios. Implementación de prácticas modernas de diseño y tecnologías web.",
     },
-    {
-      id: 2,
-      appointment: 'Frontend Engineer',
-      agency: 'Eclipse Agency',
-      date: 'Octubre 2024',
-      description: "Diseño y desarrollo frontend para una agencia de venta de boletosaéreos y servicios de viajes. Creación de interfaces de usuario intuitivas y funcionales, asegurando la mejor experiencia para los usuarios. Implementación de prácticas modernas de diseño y tecnologías web.",
-    },
+    
   ];
 
   return (
@@ -30,9 +24,9 @@ export default function Experience() {
       {/* 1ra sección de experiencia */}
 
       {dataExperience.map((experience) => (
-        <div className="flex justify-around mb-20">
-          <div>
-            <h3 className="flex  items-center gap-2 font-bold text-xl text-yellow-600 dark:text-yellow-500">
+        <div className="flex flex-col gap4 lg:flex-row sm:justify-center sm:items-center md:justify-around mb-20">
+          <div className="mb-6">
+            <h3 className="flex items-center gap-2 font-bold text-xl text-yellow-600 dark:text-yellow-500 ">
               {experience.appointment }
             </h3>
             <h4 className=" text-lg">{experience.agency}</h4>

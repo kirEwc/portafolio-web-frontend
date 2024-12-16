@@ -27,19 +27,18 @@ export default function Projects() {
       </h2>
 
       {dataProjects.map((project) => (
-      <div className="flex flex-col md:flex-row justify-around items-center gap-8 mb-20 ml-10 ">
+      <div className="flex flex-col lg:flex-row justify-around sm:items-start md:items-center gap-8 mb-20 lg:ml-10 ">
         {/* Imagen del proyecto */}
-        <div className="w-96 h-auto rounded-lg flex justify-center">
+        <div className="sm:w-40 sm:h-40 md:w-96 md:h-auto rounded-lg flex justify-center">
           <Image
             src={project.image}
             alt="foto del proyecto"
             width={400}
-            // height={250}
-            className="w-full h-full object-contain rounded-lg shadow-2xl border-2 border-gray-200 "
+            className="sm:w-40 sm:h-40 md:w-full md:h-full object-contain rounded-lg shadow-2xl border-2 border-gray-200 "
           />
         </div>
-        <div className="max-w-lg flex flex-col justify-center items-start">
-          <h2 className="text-xl font-bold">{project.work}</h2>
+        <div className="max-w-lg flex flex-col justify-center sm:items-center lg:items-start">
+          <h2 className="flex items-center justify-center text-xl font-bold">{project.work}</h2>
           {/* lenguajes de programacion */}
           <div
             id="lenguajes de programacion"
@@ -52,7 +51,7 @@ export default function Projects() {
 
           </div>
 
-          <p className="text-md text-gray-600 dark:text-gray-400">
+          <p className="flex justify-center items-center text-md text-gray-600 dark:text-gray-400 mt-3">
             {project.description}
           </p>
 

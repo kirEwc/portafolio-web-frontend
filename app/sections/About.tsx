@@ -1,6 +1,7 @@
 import { AboutMeIcon } from "@/components/icons/icons";
 import { Card } from "@nextui-org/react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function About() {
@@ -11,15 +12,17 @@ export default function About() {
         Sobre mi
       </h2>
 
-      <div className="flex flex-col-reverse  md:flex-row sm:justify-center sm:items-center md:justify-evenly">
+      <div className="flex flex-col-reverse lg:flex-row sm:justify-center sm:items-center md:justify-evenly">
         <div className="max-w-2xl mt-4">
 
         <p className=" text-md text-gray-600  dark:text-gray-300">
           Mi nombre es Aldair Guerra , aunque en el mundo de la programación
           también se me conoce como "AirDev".
           
-            Estudie en la <span className="text-blue-600 dark:text-blue-300">Universidad de las
-          Ciencias Informaticas (UCI)</span>, donde obtuve <span className="text-yellow-600 dark:text-yellow-300">mi título de "Ingeniero de
+            Estudie en la 
+            <Link href="https://www.uci.cu/es/">
+            <span className="text-blue-600 dark:text-blue-300">Universidad de las
+          Ciencias Informaticas (UCI)</span></Link>, donde obtuve <span className="text-yellow-600 dark:text-yellow-300">mi título de "Ingeniero de
           Software"</span>.
         </p>
         <p className=" text-md text-gray-600 dark:text-gray-300 mt-3"> Desde entonces trabajo en el desarrollo de interfaces de
