@@ -6,7 +6,7 @@ interface ContainerProps {
 
 const Container: React.FC<ContainerProps> = ({ children }) => {
   return (
-    <div className="pl-32 pr-32">
+    <div className="md:pl-32 md:pr-32">
       {children}
     </div>
   );
