@@ -7,12 +7,12 @@ export default function Hero() {
   return (
     <section id="hero">
         <Container>
-      <div className="flex items-center  justify-center space-x-6">
+      <div className="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-x-6">
         <Image
           src="/images/airdev.webp"
           alt="Card background"
-          width={150}
-          height={150}
+          width={100}
+          height={100}
           className="rounded-full"
         />
         <div id="cartel de disponibilidad" className="max-w-52 h-9 animate-slowMove">
@@ -35,8 +35,8 @@ export default function Hero() {
         <div className=" w-full flex justify-center space-x-10 mt-4">
         <Button 
             color="default" 
-            variant="shadow" 
-            className=" bg-gradient-to-tr from-green-500 to-yellow-500  shadow-lg"
+            variant="shadow"
+            className=" bg-gradient-to-tr from-green-400 to-purple-400 dark:from-green-600 dark:to-purple-600"
             onClick={() => window.location.href = "mailto:aldairguerracedeno@gmail.com?subject=Asunto&body=Quiero%20contratar%20sus%20servicios%20de%20frontend%20developer" }
             >
         <HugeiconsMailAdd02 className="w-6 h-6" />
@@ -45,7 +45,7 @@ export default function Hero() {
         <Button 
             color="default" 
             variant="shadow" 
-            className=" bg-gradient-to-tr from-green-500 to-yellow-500"
+            className=" bg-gradient-to-tr from-green-400 to-purple-400 dark:from-green-600 dark:to-purple-600"
             //onClick={() => window.location.href = "https://drive.google.com/file/d/1-5-1-2-3-4-5/view?usp=sharing" }
             >
         <SolarFileDownloadBroken className="w-6 h-6" />
@@ -55,7 +55,7 @@ export default function Hero() {
         <Button 
             color="default" 
             variant="shadow" 
-            className=" bg-gradient-to-tr from-green-500 to-yellow-500"
+            className=" bg-gradient-to-tr from-green-400 to-purple-400 dark:from-green-600 dark:to-purple-600"
             onClick={() => window.location.href = "https://www.linkedin.com/in/aldair-guerra-cedeño-a9819933a/" }
             >
         <IconoirLinkedin className="w-6 h-6" />
