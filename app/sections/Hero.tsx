@@ -26,7 +26,7 @@ export default function Hero() {
         <h1 className="font-bold text-5xl ">Hola , soy AirDev</h1>
         <h3 className="text-2xl mt-4">
           +3 años de experiencia. <br className="md:hidden"/>
-          <span className="text-yellow-600 dark:text-yellow-500 font-extrabold">
+          <span className="text-yellow-600 dark:text-yellow-500">
             Ingeniero de Software
           </span>
           , especializado en el desarrollo de aplicaciones web fronted únicas.

@@ -21,7 +21,7 @@ export const Navbar = () => {
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Image src="/favicon.ico" width={20} height={20} alt="AirDev" />
+            <Image src="/favicon.ico" alt="Icono del nombre" width={20} height={20}/>
             <p className="font-bold text-inherit ml-1 ">AirDev</p>
           </NextLink>
         </NavbarBrand>
