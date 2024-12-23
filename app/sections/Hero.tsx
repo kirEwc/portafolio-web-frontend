@@ -52,7 +52,7 @@ export default function Hero() {
             Descargar CV
         </Button>  
 
-        <Button 
+        {/* <Button 
             color="default" 
             variant="shadow" 
             className=" bg-gradient-to-tr from-green-400 to-purple-400 dark:from-green-600 dark:to-purple-600"
@@ -60,7 +60,7 @@ export default function Hero() {
             >
         <IconoirLinkedin className="w-6 h-6" />
             LinkedIn
-        </Button>
+        </Button> */}
         </div>
 
       </div>
