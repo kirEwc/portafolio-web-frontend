@@ -12,7 +12,7 @@ export default function About() {
         Sobre mi
       </h2>
 
-      <div className="flex flex-col-reverse lg:flex-row sm:justify-center sm:items-center md:justify-evenly">
+      <div className="flex flex-col-reverse lg:flex-row justify-center items-center md:justify-evenly">
         <div className="max-w-2xl mt-4">
 
         <p className=" text-md text-gray-600  dark:text-gray-300">
