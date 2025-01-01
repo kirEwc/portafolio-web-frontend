@@ -37,7 +37,7 @@ export default function Hero() {
             color="default" 
             variant="shadow"
             className=" bg-gradient-to-tr from-green-400 to-purple-400 dark:from-green-600 dark:to-purple-600"
-            onClick={() => window.location.href = "mailto:aldairguerracedeno@gmail.com?subject=Asunto&body=Quiero%20contratar%20sus%20servicios%20de%20frontend%20developer" }
+            onPress={() => window.location.href = "mailto:aldairguerracedeno@gmail.com?subject=Asunto&body=Quiero%20contratar%20sus%20servicios%20de%20frontend%20developer" }
             >
         <HugeiconsMailAdd02 className="w-6 h-6" />
             Contactame
@@ -46,7 +46,7 @@ export default function Hero() {
             color="default" 
             variant="shadow" 
             className=" bg-gradient-to-tr from-green-400 to-purple-400 dark:from-green-600 dark:to-purple-600"
-            //onClick={() => window.location.href = "https://drive.google.com/file/d/1-5-1-2-3-4-5/view?usp=sharing" }
+            //onPress={() => window.location.href = "https://drive.google.com/file/d/1-5-1-2-3-4-5/view?usp=sharing" }
             >
         <SolarFileDownloadBroken className="w-6 h-6" />
             Descargar CV
