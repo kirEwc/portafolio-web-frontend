@@ -15,6 +15,13 @@ export default function Projects() {
       link: "https://eclipse-frontend-production.up.railway.app/",
       github: "https://github.com/kirEwc/eclipse",
     },
+    {
+      id: 2,
+      work: 'Personal Website',
+      description: 'Mi sitio web personal, creado con Next.js, Tailwind CSS y NextUI.',
+      image: '/images/portafolio.webp',
+      github: 'https://github.com/kirEwc/portafolio-web-frontend',
+    }
     
   ]
 
@@ -63,6 +70,7 @@ export default function Projects() {
               <GithubProjects className="w-6 h-6 mr-2" />
               Code
             </Link>
+            {project.link && (
             <Link
               href={project.link}
               className=" items-center px-4 py-2 text-gray-900 dark:text-white bg-gray-300 dark:bg-gray-800 rounded-lg shadow-md hover:bg-gray-800 hover:text-white "
@@ -70,6 +78,7 @@ export default function Projects() {
               <LinkIcon2 className="w-5 h-5 mr-2" />
               Preview
             </Link>
+            )}
           </div>
         </div>
       </div>
