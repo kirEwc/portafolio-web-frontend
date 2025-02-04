@@ -12,7 +12,7 @@ export default function Projects() {
       work: "Eclipse Agency",
       description: "Una aplicación web de gestión de boletos aéreos y servicios de viajes. Creado desde cero con el framework Next.js, React , Tailwind CSS y NextUI.",
       image: "/images/eclipse.webp",
-      link: "https://eclipse-frontend-production.up.railway.app/",
+      link: "https://eclipse-frontend-six.vercel.app/",
       github: "https://github.com/kirEwc/eclipse",
     },
     {
