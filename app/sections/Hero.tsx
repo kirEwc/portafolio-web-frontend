@@ -9,7 +9,7 @@ export default function Hero() {
         <Container>
       <div className="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-x-6">
         <Image
-          src="/images/airdev.webp"
+          src="/images/airdev.jpg"
           alt="Card background"
           width={100}
           height={100}
@@ -46,7 +46,7 @@ export default function Hero() {
             color="default" 
             variant="shadow" 
             className=" bg-gradient-to-tr from-green-400 to-purple-400 dark:from-green-600 dark:to-purple-600"
-            //onPress={() => window.location.href = "https://drive.google.com/file/d/1-5-1-2-3-4-5/view?usp=sharing" }
+            onPress={() => window.location.href = "https://drive.usercontent.google.com/download?id=1MeOQnnT_tf36KWE9Q1QIkkJRP560g9-P&export=download&authuser=0" }
             >
         <SolarFileDownloadBroken className="w-6 h-6" />
             Descargar CV

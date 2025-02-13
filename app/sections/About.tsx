@@ -29,7 +29,7 @@ export default function About() {
         </div>
         <Card className="mt-10 w-52 h-48 flex justify-center items-center transform rotate-3">
           <Image
-            src="/images/airdev.webp"
+            src="/images/airdev.jpg"
             alt="About me"
             width={400}
             height={400}
