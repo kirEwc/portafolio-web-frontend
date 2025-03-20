@@ -11,7 +11,7 @@ export default function Projects() {
       id: 1,
       work: "Eclipse Agency",
       description: "Una aplicación web de gestión de boletos aéreos y servicios de viajes. Creado desde cero con el framework Next.js, React , Tailwind CSS y NextUI.",
-      image: "/images/eclipse.webp",
+      image: "/images/eclipse-macbook.png",
       link: "https://eclipse-frontend-six.vercel.app/",
       github: "https://github.com/kirEwc/eclipse",
     },
@@ -19,7 +19,7 @@ export default function Projects() {
       id: 2,
       work: 'Personal Website',
       description: 'Mi sitio web personal, creado con Next.js, Tailwind CSS y NextUI.',
-      image: '/images/portafolio.webp',
+      image: '/images/portafolio-macbook.png',
       github: 'https://github.com/kirEwc/portafolio-web-frontend',
     }
     
@@ -41,7 +41,7 @@ export default function Projects() {
             src={project.image}
             alt="foto del proyecto"
             width={600}
-            className="object-cover w-full rounded-xl shadow-2xl border-2 border-gray-200 dark:border-gray-700"
+            className="object-cover w-full rounded-xl shadow-2xl "
           />
         </div>
         <div className="w-full lg:w-1/2 max-w-xl flex flex-col items-center lg:items-start space-y-6">
