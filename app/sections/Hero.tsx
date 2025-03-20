@@ -48,7 +48,7 @@ export default function Hero() {
             variant="shadow" 
             size="lg"
             className="bg-gradient-to-tr from-green-400 to-purple-400 dark:from-green-600 dark:to-purple-600 hover:opacity-90 hover:scale-105 transition-all duration-300 w-64 sm:w-auto"
-            onPress={() => window.location.href = "https://drive.usercontent.google.com/download?id=1MeOQnnT_tf36KWE9Q1QIkkJRP560g9-P&export=download&authuser=0" }
+            onPress={() => window.location.href = "https://drive.google.com/file/d/1yV23osuP9CNNnXFF6YhsDh2V6kZ0Uhnr/view?usp=sharing" }
             >
         <SolarFileDownloadBroken className="w-6 h-6" />
             Descargar CV
